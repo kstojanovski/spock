@@ -1,4 +1,4 @@
-package name.stojanovki.kosta;
+package name.stojanovki.kosta.simple;
 
 class HelloSpock extends spock.lang.Specification {
 	

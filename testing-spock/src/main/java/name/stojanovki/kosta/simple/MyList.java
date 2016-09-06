@@ -1,4 +1,4 @@
-package name.stojanovki.kosta;
+package name.stojanovki.kosta.simple;
 
 import java.util.ArrayList;
 import java.util.List;

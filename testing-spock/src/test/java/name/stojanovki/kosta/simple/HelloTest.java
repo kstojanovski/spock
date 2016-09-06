@@ -1,7 +1,9 @@
-package name.stojanovki.kosta;
+package name.stojanovki.kosta.simple;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import name.stojanovki.kosta.simple.Hello;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;

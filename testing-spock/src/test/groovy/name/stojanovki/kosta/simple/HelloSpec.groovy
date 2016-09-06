@@ -1,5 +1,6 @@
-package name.stojanovki.kosta;
+package name.stojanovki.kosta.simple;
 
+import name.stojanovki.kosta.simple.Hello;
 import spock.lang.Specification
 
 class HelloSpec extends Specification {

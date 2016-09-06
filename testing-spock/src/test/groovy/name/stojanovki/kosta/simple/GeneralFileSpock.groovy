@@ -1,15 +1,16 @@
-package name.stojanovki.kosta;
+package name.stojanovki.kosta.simple;
 
 import spock.lang.Specification;
 
 class GeneralFileSpock extends Specification {
 
-	def testResourcesPath = new File(getClass().getClassLoader().getResource(".").getFile()).getAbsolutePath(); 
+	def TEST_RESOURCE_PATH = "src/test/resources";
+	def path = new java.io.File(TEST_RESOURCE_PATH).getAbsolutePath();
 	
 	def 'Create a new file'() {
 
 		setup:
-		def file = new File(testResourcesPath + "/tmp/foo.txt")
+		def file = new File(path, "foo.txt")
 
 		when: 'A new file is created'
 		file.createNewFile()

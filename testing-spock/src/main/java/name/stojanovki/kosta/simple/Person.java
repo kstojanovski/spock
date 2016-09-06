@@ -1,4 +1,4 @@
-package name.stojanovki.kosta;
+package name.stojanovki.kosta.simple;
 
 public class Person {
 

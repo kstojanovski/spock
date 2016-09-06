@@ -1,5 +1,6 @@
-package name.stojanovki.kosta;
+package name.stojanovki.kosta.simple;
 
+import name.stojanovki.kosta.simple.MyList;
 import spock.lang.Shared
 
 class MyListSpock extends spock.lang.Specification {

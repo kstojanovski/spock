@@ -1,5 +1,6 @@
-package name.stojanovki.kosta;
+package name.stojanovki.kosta.simple;
 
+import name.stojanovki.kosta.simple.MyMap;
 import spock.lang.Shared
 
 class MyMapSpock extends spock.lang.Specification {
